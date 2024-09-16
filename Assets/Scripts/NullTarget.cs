@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class NullTarget : MonoBehaviour, ITarget
+public class NullTarget : ITarget
 {
     public void OnClick()
     {
